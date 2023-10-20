@@ -22,7 +22,7 @@ export function Item({ data, last = false }) {
   return (
     <>
       <ListItemButton onClick={handleClick} alignItems="flex-start">
-        <Grid container>
+        <Grid container padding={1}>
           {imgsrc && (
             <Grid>
               <ListItemAvatar>
