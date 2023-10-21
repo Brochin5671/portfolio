@@ -31,13 +31,13 @@ export const projectData = [
   },
   {
     name: "Blobbed",
-    desc: "Final project for my grade 10 Computer Science class using Python2 and Pygame. Avoid enemies and reach the portals to fight the final boss.",
+    desc: "Grade 10 Computer Science final project using Python2 and Pygame. Avoid enemies and reach the portals to fight the final boss.",
     imgsrc: null,
     srcLink: "https://github.com/Brochin5671/blobbed-game",
   },
   {
     name: "Civilization Simulator",
-    desc: "Final project for my grade 12 Computer Science class that demonstrates OOP concepts as a Point & Click game. Using a genetic algorithm to evolve your civilization, you play as the humans who must go against monsters and aliens genes to survive.",
+    desc: "Grade 12 Computer Science final project that demonstrates OOP concepts as a Point & Click game. Using a genetic algorithm to evolve your civilization, you play as the humans who must go against monsters' and aliens' genes to survive.",
     imgsrc: null,
     srcLink: "https://github.com/Brochin5671/CivilizationSimulator",
   },
