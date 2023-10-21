@@ -1,7 +1,6 @@
 import {
   Avatar,
   Collapse,
-  Link,
   ListItemAvatar,
   ListItemButton,
   ListItemText,
