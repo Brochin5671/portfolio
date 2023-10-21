@@ -1,4 +1,4 @@
-import UOFG_logo from "../assets/UOFG_logo.png"
+import UOFG_logo from "../assets/logos/UOFG_logo.png"
 
 export const educationData = [
   {
