@@ -6,5 +6,8 @@ export const educationData = [
     subtitle: "University of Guelph",
     dateRange: "Sep. 2019 - May 2024",
     imgsrc: UOFG_logo,
+    points: [
+      "Relevant Coursework: Parallel Programming, Operating Systems, Algorithms, Data Structures",
+    ],
   },
 ]
