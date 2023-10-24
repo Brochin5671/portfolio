@@ -42,9 +42,10 @@ export function App() {
             <Card sx={{ maxWidth: 250, margin: "1em", marginBottom: "2em" }}>
               <CardMedia
                 component="img"
-                alt={name}
+                alt="Picture of Max"
                 loading="lazy"
                 image="/assets/about/me.jpg"
+                height="100%"
               />
             </Card>
           </Grid>
@@ -73,6 +74,8 @@ export function App() {
                 alt="Jupiter rotating"
                 loading="lazy"
                 image="/assets/about/jupiter.gif"
+                width="250"
+                height="250"
               />
               <CardContent>
                 <Typography gutterBottom variant="h5" component="div">
