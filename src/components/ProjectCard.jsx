@@ -10,13 +10,25 @@ import {
 import GitHubIcon from "@mui/icons-material/GitHub"
 import LinkIcon from "@mui/icons-material/Link"
 
-export function ProjectCard({ data }) {
-  const { name, desc, srcLink, link, imgsrc } = data
+export const ProjectCard = ({ data }) => {
+  const {
+    name,
+    desc,
+    srcLink,
+    link,
+    imgsrc = "/src/assets/previews/missing.jpg",
+  } = data
 
   return (
     <Grid>
       <Card sx={{ maxWidth: 345, margin: "1em" }}>
-        <CardMedia component="img" alt={name} height="140" image={imgsrc} />
+        <CardMedia
+          component="img"
+          alt={name}
+          height="140"
+          loading="lazy"
+          image={imgsrc}
+        />
         <CardContent>
           <Typography gutterBottom variant="h5" component="div">
             {name}
