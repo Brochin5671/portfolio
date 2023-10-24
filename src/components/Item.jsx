@@ -12,7 +12,7 @@ import {
 } from "@mui/material"
 import { useState } from "preact/hooks"
 
-export function Item({ data, last = false }) {
+export const Item = ({ data, last = false }) => {
   const [open, setOpen] = useState(false)
   const { title, subtitle, dateRange, imgsrc, points } = data
 
@@ -40,14 +40,20 @@ export function Item({ data, last = false }) {
             <ListItemText
               primary={title}
               secondary={
-                <Typography variant="subtitle2">{subtitle}</Typography>
+                <Typography variant="subtitle2" color="text.secondary">
+                  {subtitle}
+                </Typography>
               }
             />
           </Grid>
         </Grid>
         <ListItemText
           primary={dateRange}
-          primaryTypographyProps={{ textAlign: "end" }}
+          primaryTypographyProps={{
+            textAlign: "end",
+            variant: "body2",
+            mt: "1em",
+          }}
         />
       </ListItemButton>
       <Collapse in={open} timeout="auto" unmountOnExit>
