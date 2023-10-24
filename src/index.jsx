@@ -44,7 +44,7 @@ export function App() {
                 component="img"
                 alt={name}
                 loading="lazy"
-                image="/src/assets/about/me.jpg"
+                image="/assets/about/me.jpg"
               />
             </Card>
           </Grid>
@@ -72,7 +72,7 @@ export function App() {
                 component="img"
                 alt="Jupiter rotating"
                 loading="lazy"
-                image="/src/assets/about/jupiter.gif"
+                image="/assets/about/jupiter.gif"
               />
               <CardContent>
                 <Typography gutterBottom variant="h5" component="div">

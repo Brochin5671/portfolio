@@ -1,4 +1,4 @@
-const PATH = "/src/assets/previews/"
+const PATH = "/assets/previews/"
 
 export const projectData = [
   {

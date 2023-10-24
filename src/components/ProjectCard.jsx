@@ -16,7 +16,7 @@ export const ProjectCard = ({ data }) => {
     desc,
     srcLink,
     link,
-    imgsrc = "/src/assets/previews/missing.jpg",
+    imgsrc = "/assets/previews/missing.jpg",
   } = data
 
   return (

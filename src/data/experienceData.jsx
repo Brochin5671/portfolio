@@ -1,4 +1,4 @@
-const PATH = "/src/assets/logos/"
+const PATH = "/assets/logos/"
 
 export const experienceData = [
   {
