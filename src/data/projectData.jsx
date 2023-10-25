@@ -11,6 +11,8 @@ export const projectData = [
   {
     name: "GPX File Viewer",
     desc: "A CRUD web-app that displays parsed XML files as GPS trail data, leveraging C FFI for parsing and storing data in a MySQL database.",
+    imgsrc: `${PATH}gpx_file_viewer_preview.png`,
+    link: "https://gpx-file-viewer.fly.dev",
   },
   {
     name: "Science Fetcher",
