@@ -44,12 +44,12 @@ export const ProjectCard = ({ data }) => {
               target="_blank"
               aria-label="Source code link"
             >
-              <GitHubIcon />
+              <GitHubIcon fontSize="large" />
             </IconButton>
           )}
           {link && (
             <IconButton href={link} target="_blank" aria-label="Website link">
-              <LinkIcon />
+              <LinkIcon fontSize="large" />
             </IconButton>
           )}
         </CardActions>
