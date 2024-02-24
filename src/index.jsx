@@ -56,7 +56,7 @@ export function App() {
       <Divider sx={{ marginTop: "2em" }} variant="middle" />
       <footer>
         <Typography variant="subtitle1" paddingTop={2} textAlign="center">
-          © 2023 Maxim Brochin
+          © 2024 Maxim Brochin
         </Typography>
         <Typography variant="subtitle2" padding={2} textAlign="center">
           maximbrochin@gmail.com
