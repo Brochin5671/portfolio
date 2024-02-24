@@ -8,6 +8,7 @@ import {
 } from "@mui/material"
 import GitHubIcon from "@mui/icons-material/GitHub"
 import LinkedInIcon from "@mui/icons-material/LinkedIn"
+import InstagramIcon from "@mui/icons-material/Instagram"
 
 export const AboutSection = () => {
   return (
@@ -40,6 +41,13 @@ export const AboutSection = () => {
           >
             <LinkedInIcon fontSize="large" />
           </IconButton>
+          <IconButton
+            href="https://www.instagram.com/astro__max/"
+            target="_blank"
+            aria-label="Instagram astrophotography account link"
+          >
+            <InstagramIcon fontSize="large" />
+          </IconButton>
         </Grid>
       </Grid>
       <Typography>
@@ -57,8 +65,10 @@ export const AboutSection = () => {
       </Typography>
       <br />
       <Typography>
-        My favorite hobby is Astrophotography, really beautiful what sights
-        reside in the night-sky!
+        My favorite hobby is Astrophotography🪐, after seeing Saturn in my
+        eyepiece and wanting to share the experience with others. Below are
+        images taken with my 8" telescope and a dedicated astrocam. Really
+        beautiful what sights reside in the night-sky!
       </Typography>
       <Grid container justifyContent="center">
         <Card sx={{ maxWidth: 250, margin: "1em" }}>
@@ -75,8 +85,46 @@ export const AboutSection = () => {
               Jupiter Rotation
             </Typography>
             <Typography variant="body2" color="text.secondary">
-              Captured with my 8" SCT and dedicated astrocam, rotation takes
-              place over 41 minutes.
+              A 41-minute rotation of Jupiter with the Great Red Spot on
+              September 23rd, 2023. A day on Jupiter lasts about 10 hours.
+            </Typography>
+          </CardContent>
+        </Card>
+        <Card sx={{ maxWidth: 250, margin: "1em" }}>
+          <CardMedia
+            component="img"
+            alt="Saturn and its moons"
+            loading="lazy"
+            image="/assets/about/saturn_moons.jpg"
+            width="250"
+            height="250"
+          />
+          <CardContent>
+            <Typography gutterBottom variant="h5" component="div">
+              Saturn and Moons
+            </Typography>
+            <Typography variant="body2" color="text.secondary">
+              A composite image of Saturn with its moons Titan, Tethys, Dione
+              and Rhea (left to right). Taken on August 31st, 2023.
+            </Typography>
+          </CardContent>
+        </Card>
+        <Card sx={{ maxWidth: 250, margin: "1em" }}>
+          <CardMedia
+            component="img"
+            alt="Trapezium Star Cluster"
+            loading="lazy"
+            image="/assets/about/trapezium_cluster.jpg"
+            width="250"
+            height="250"
+          />
+          <CardContent>
+            <Typography gutterBottom variant="h5" component="div">
+              Trapezium Cluster
+            </Typography>
+            <Typography variant="body2" color="text.secondary">
+              A star cluster located within Orion's Nebula hosting more than a
+              thousand young stars, four light-years in diameter.
             </Typography>
           </CardContent>
         </Card>
