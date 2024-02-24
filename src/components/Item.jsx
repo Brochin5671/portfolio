@@ -60,10 +60,10 @@ export const Item = ({ data, last = false }) => {
         <List
           component="div"
           disablePadding
-          sx={{ listStyleType: "disc", pl: 4, ml: 4 }}
+          sx={{ listStyleType: "disc", pl: 4, ml: 4, mb: 2 }}
         >
           {points?.map((point) => (
-            <ListItem sx={{ display: "list-item" }}>
+            <ListItem sx={{ display: "list-item", padding: 0 }}>
               <ListItemText
                 primary={<Typography variant="subtitle2">{point}</Typography>}
               />
