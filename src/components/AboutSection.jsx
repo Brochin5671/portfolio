@@ -51,8 +51,7 @@ export const AboutSection = () => {
         </Grid>
       </Grid>
       <Typography>
-        I attend the University of Guelph for the Computer Science Co-op
-        program, finishing off my 5th and last year!
+        I am a Computer Science Honours graduate from the University of Guelph!
       </Typography>
       <br />
       <Typography>
