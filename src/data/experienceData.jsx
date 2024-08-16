@@ -2,7 +2,7 @@ const PATH = "/assets/logos/"
 
 export const experienceData = [
   {
-    title: "Software Developer",
+    title: "Software Developer Intern",
     subtitle: "Clear Software Inc.",
     dateRange: "Jan. 2023 - Jul. 2023",
     imgsrc: `${PATH}clear_logo.jpg`,
@@ -14,7 +14,7 @@ export const experienceData = [
     ],
   },
   {
-    title: "Software Engineer",
+    title: "Software Engineer Intern",
     subtitle: "TD Bank Group",
     dateRange: "May 2022 - Aug. 2022",
     imgsrc: `${PATH}TD_logo.svg`,
@@ -26,7 +26,7 @@ export const experienceData = [
     ],
   },
   {
-    title: "Software Developer",
+    title: "Software Developer Intern",
     subtitle: "NCR Voyix",
     dateRange: "Sep. 2021 - Dec. 2021",
     imgsrc: `${PATH}NCR_logo.svg`,
@@ -37,7 +37,7 @@ export const experienceData = [
     ],
   },
   {
-    title: "Data Programmer and Analyst",
+    title: "Data Programmer and Analyst Intern",
     subtitle: "University of Guelph",
     dateRange: "Jun. 2021 - Sep. 2021",
     imgsrc: `${PATH}UOFG_logo.png`,
