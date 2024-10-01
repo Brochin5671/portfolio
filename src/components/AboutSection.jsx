@@ -42,7 +42,7 @@ export const AboutSection = () => {
             <LinkedInIcon fontSize="large" />
           </IconButton>
           <IconButton
-            href="https://www.instagram.com/astro__max/"
+            href="https://www.instagram.com/astroprime0/"
             target="_blank"
             aria-label="Instagram astrophotography account link"
           >
