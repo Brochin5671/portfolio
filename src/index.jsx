@@ -1,21 +1,21 @@
 // Must be the first import
 //import "preact/debug"
 
-import { render } from "preact"
-import "./style.css"
-import { Box, Container, Divider, Grid, Typography } from "@mui/material"
-import { experienceData } from "./data/experienceData"
-import { educationData } from "./data/educationData"
-import { ItemList } from "./components/ItemList"
-import { ProjectCard } from "./components/ProjectCard"
-import { projectData } from "./data/projectData"
-import { ThemeProvider, createTheme } from "@mui/material/styles"
-import CssBaseline from "@mui/material/CssBaseline"
-import { AboutSection } from "./components/AboutSection"
+import { render } from 'preact'
+import './style.css'
+import { Box, Container, Divider, Grid, Typography } from '@mui/material'
+import { experienceData } from './data/experienceData'
+import { educationData } from './data/educationData'
+import { ItemList } from './components/ItemList'
+import { ProjectCard } from './components/ProjectCard'
+import { projectData } from './data/projectData'
+import { ThemeProvider, createTheme } from '@mui/material/styles'
+import CssBaseline from '@mui/material/CssBaseline'
+import { AboutSection } from './components/AboutSection'
 
 const darkTheme = createTheme({
   palette: {
-    mode: "dark",
+    mode: 'dark',
   },
 })
 
@@ -53,10 +53,10 @@ export function App() {
           </Grid>
         </section>
       </Container>
-      <Divider sx={{ marginTop: "2em" }} variant="middle" />
+      <Divider sx={{ marginTop: '2em' }} variant="middle" />
       <footer>
         <Typography variant="subtitle1" paddingTop={2} textAlign="center">
-          © 2024 Maxim Brochin
+          © 2025 Maxim Brochin
         </Typography>
         <Typography variant="subtitle2" padding={2} textAlign="center">
           maximbrochin@gmail.com
@@ -66,4 +66,4 @@ export function App() {
   )
 }
 
-render(<App />, document.getElementById("app"))
+render(<App />, document.getElementById('app'))
