@@ -64,10 +64,10 @@ export const AboutSection = () => {
       </Typography>
       <br />
       <Typography>
-        My favorite hobby is Astrophotography🪐, after seeing Saturn in my
-        eyepiece and wanting to share the experience with others. Below are
+        My favorite hobby is Astrophotography🪐. After seeing Saturn in my
+        eyepiece, I wanted to share the experience with others by photo. Below are
         images taken with my 8" telescope and a dedicated astrocam. Really
-        beautiful what sights reside in the night-sky!
+        amazing what great sights reside in the night-sky!
       </Typography>
       <Grid container justifyContent="center">
         <Card sx={{ maxWidth: 250, margin: "1em" }}>
