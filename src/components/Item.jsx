@@ -5,7 +5,7 @@ import {
   ListItemButton,
   ListItemText,
   Typography,
-  Unstable_Grid2 as Grid,
+  Grid,
   Divider,
   List,
   ListItem,
@@ -49,11 +49,11 @@ export const Item = ({ data, last = false }) => {
         </Grid>
         <ListItemText
           primary={dateRange}
-          primaryTypographyProps={{
+          slotProps={{primary: {
             textAlign: "end",
             variant: "body2",
             mt: "1em",
-          }}
+          }}}
         />
       </ListItemButton>
       <Collapse in={open} timeout="auto" unmountOnExit>
